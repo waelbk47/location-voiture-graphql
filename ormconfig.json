@@ -1,0 +1,14 @@
+{
+    "type":"mysql",
+    "database":"graphqlcrud",
+    "username":"root",
+    "password":"",
+    "logging": true,
+    "synchronize": true,
+    "entities": ["src/Entities/**/*.ts"],
+    "migrations": ["src/migration/**/*.ts"],
+    "cli": {
+        "entitiesDir": "src/entity",
+        "migrationsDir": "src/migration"
+      }
+    }
